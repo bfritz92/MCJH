@@ -173,4 +173,12 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 .bottom-gallery {
   margin-top: 0 !important;
 }
+
+.wp-block-navigation__container:last-child(.wp-block-navigation-item) a.wp-block-navigation-item__content {
+  background-color: #FF9300;
+  height: 100%;
+  padding: .8rem 1rem;
+  color: #fff !important;
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */
