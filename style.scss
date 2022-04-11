@@ -162,3 +162,16 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 .wp-block-group.alignfull {
   margin-top: 0 !important;
 }
+
+.wp-block-columns .partner-org{
+  &--beth-el{
+    .wp-block-column h4.title{
+      padding: 1rem 1rem 1rem -2rem;
+      margin: 1rem 0 0 -2rem;
+    }
+  }
+  &--simons{
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem -2rem 0 0;
+  }
+}

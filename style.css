@@ -17,7 +17,8 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://use.typekit.net/tdy5zuz.css");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 /*
  * Font smoothing.
  * This is a niche setting that will not be available via Global Styles.
@@ -151,5 +152,15 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 
 .wp-block-group.alignfull {
   margin-top: 0 !important;
+}
+
+.wp-block-columns .partner-org--beth-el .wp-block-column h4.title {
+  padding: 1rem 1rem 1rem -2rem;
+  margin: 1rem 0 0 -2rem;
+}
+
+.wp-block-columns .partner-org--simons {
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem -2rem 0 0;
 }
 /*# sourceMappingURL=style.css.map */
