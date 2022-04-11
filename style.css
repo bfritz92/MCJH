@@ -155,12 +155,12 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 }
 
 .wp-block-columns.partner-org--beth-el .wp-block-column h4.partner-org--title {
-  padding: 1rem 1rem 1rem -2rem;
+  padding: 1rem 1rem 1rem -2rem !important;
   margin: 1rem 0 0 -2rem;
 }
 
 .wp-block-columns.partner-org--simons .wp-block-column h4.partner-org--title {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem !important;
   margin: 1rem -2rem 0 0;
 }
 /*# sourceMappingURL=style.css.map */
