@@ -165,13 +165,14 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 
 .wp-block-columns .partner-org{
   &--beth-el{
-    .wp-block-column h4.title{
+    .wp-block-column h4.partner-org--title{
       padding: 1rem 1rem 1rem -2rem;
       margin: 1rem 0 0 -2rem;
     }
   }
   &--simons{
+    .wp-block-column h4.partner-org--title{
     padding: 1rem 1rem 1rem 1rem;
-    margin: 1rem -2rem 0 0;
+    margin: 1rem -2rem 0 0;}
   }
 }
