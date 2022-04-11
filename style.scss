@@ -163,6 +163,10 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
   margin-top: 0 !important;
 }
 
+.wp-block-group.splash--title{
+  background:rgba(43, 57, 144, .75);
+}
+
 .wp-block-columns.partner-org{
   &--beth-el{
     .wp-block-column h4.partner-org--title{
