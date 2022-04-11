@@ -169,4 +169,9 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
   margin: 1rem -2rem 0 0;
   line-height: 0.9;
 }
+
+.bottom-gallery {
+  padding: 0;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
