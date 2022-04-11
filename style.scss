@@ -163,23 +163,23 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
   margin-top: 0 !important;
 }
 
-.wp-block-group.splash--title{
-  background-color:rgba(43, 57, 144, .75) !important;
+.wp-block-group.splash--title {
+  background-color: rgba(43, 57, 144, 0.75) !important;
 }
 
-.wp-block-columns.partner-org{
-  &--beth-el{
-    .wp-block-column h4.partner-org--title{
+.wp-block-columns.partner-org {
+  &--beth-el {
+    .wp-block-column h4.partner-org--title {
       padding: 1rem 1rem 1rem 2rem;
       margin: 1rem 0 0 -2rem;
-      line-height:.9;
+      line-height: 0.9;
     }
   }
-  &--simons{
-    .wp-block-column h4.partner-org--title{
-    padding: 1rem 1rem 1rem 1rem;
-    margin: 1rem -2rem 0 0;
-    line-height:.9;
+  &--simons {
+    .wp-block-column h4.partner-org--title {
+      padding: 1rem 1rem 1rem 1rem;
+      margin: 1rem -2rem 0 0;
+      line-height: 0.9;    
     }
   }
 }
