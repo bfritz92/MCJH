@@ -155,7 +155,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 }
 
 .wp-block-group.splash--title {
-  background: rgba(43, 57, 144, 0.75);
+  background-color: rgba(43, 57, 144, 0.75) !important;
 }
 
 .wp-block-columns.partner-org--beth-el .wp-block-column h4.partner-org--title {
