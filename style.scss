@@ -189,7 +189,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 }
 
 .wp-block-navigation__container{
-  &:last-child(.wp-block-navigation-item){
+  .wp-block-navigation-item:last-child{
     a.wp-block-navigation-item__content{
         background-color: #FF9300;
         height: 100%;
