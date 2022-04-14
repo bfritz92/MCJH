@@ -204,3 +204,29 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 label {
   font-family: "bicyclette", sans-serif;
 }
+
+#gform-2 {
+  font-family: bicyclette;
+  .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price {
+    .ginput_container.ginput_container_radio .gfield_radio {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      div {
+        padding: 0.5rem 1rem;
+        border: 2px solid var(--wp--preset--color--primary);
+        margin: 0.5rem;
+        .gfield-choice-input {
+          display: none;
+        }
+        .label {
+          width: 100%;
+          height: 100%;
+          &:hover {
+            color: #fff;
+            background-color: var(--wp--preset--color--primary);
+          }
+        }
+      }
+    }
+  }
+}
