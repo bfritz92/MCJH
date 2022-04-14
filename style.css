@@ -175,10 +175,15 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 }
 
 .wp-block-navigation__container .wp-block-navigation-item:last-child a.wp-block-navigation-item__content {
-  background-color: #FF9300;
+  background-color: #ff9300;
   height: 100%;
-  padding: .8rem 1rem;
+  padding: 0.8rem 1rem;
   color: #fff !important;
   font-weight: 700;
+}
+
+.gform_wrapper.gravity-theme.gfield_label,
+label {
+  font-family: "bicyclette", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

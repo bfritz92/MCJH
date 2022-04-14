@@ -179,23 +179,28 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
     .wp-block-column h4.partner-org--title {
       padding: 1rem 1rem 1rem 1rem;
       margin: 1rem -2rem 0 0;
-      line-height: 0.9;    
+      line-height: 0.9;
     }
   }
 }
 
-.bottom-gallery{
-  margin-top:0 !important;
+.bottom-gallery {
+  margin-top: 0 !important;
 }
 
-.wp-block-navigation__container{
-  .wp-block-navigation-item:last-child{
-    a.wp-block-navigation-item__content{
-        background-color: #FF9300;
-        height: 100%;
-        padding: .8rem 1rem;
-        color: #fff !important;
-        font-weight: 700;
+.wp-block-navigation__container {
+  .wp-block-navigation-item:last-child {
+    a.wp-block-navigation-item__content {
+      background-color: #ff9300;
+      height: 100%;
+      padding: 0.8rem 1rem;
+      color: #fff !important;
+      font-weight: 700;
     }
   }
+}
+
+.gform_wrapper.gravity-theme.gfield_label,
+label {
+  font-family: "bicyclette", sans-serif;
 }
