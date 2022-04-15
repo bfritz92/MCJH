@@ -216,15 +216,11 @@ label {
         border: 2px solid var(--wp--preset--color--primary);
         margin: 0.5rem;
         .gfield-choice-input {
-          display: none;
+          //display: none;
         }
         .label {
           width: 100%;
           height: 100%;
-          &:hover {
-            color: #fff;
-            background-color: var(--wp--preset--color--primary);
-          }
         }
       }
     }
