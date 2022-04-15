@@ -199,7 +199,6 @@ label {
 }
 
 #gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div {
-  padding: 0.5rem 1rem;
   border: 2px solid var(--wp--preset--color--primary);
   margin: 0.5rem;
 }
@@ -210,10 +209,15 @@ label {
 
 #gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div input[type=radio]:checked + label {
   font-weight: 700;
+  background-color: var(--wp--preset--color--primary);
+  color: #fff;
 }
 
 #gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div .label {
+  max-width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin: auto;
   width: 100%;
-  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
