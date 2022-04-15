@@ -215,9 +215,11 @@ label {
         padding: 0.5rem 1rem;
         border: 2px solid var(--wp--preset--color--primary);
         margin: 0.5rem;
-        input[type=radio]:checked+label{
+        input{
+          display:none;
+        &[type=radio]:checked+label{
           font-weight:700;
-        }
+        }}
         .label {
           width: 100%;
           height: 100%;
