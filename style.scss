@@ -217,19 +217,20 @@ label {
         margin: 0.5rem;
         input{
           display:none;
-        &[type=radio]:checked+label{
-          font-weight:700;
-          background-color:var(--wp--preset--color--primary);
-          color:#fff;
-        }}
-        .label {
+          &[type=radio]:checked+label{
+            font-weight:700;
+            background-color:var(--wp--preset--color--primary);
+            color:#fff;
+          }
+        
+        label {
           max-width: 100%;
           padding: 0.5rem 1rem;
           text-align: center;
           margin: auto;
           width: 100%;
         }
-      }
+      }}
     }
   }
 }

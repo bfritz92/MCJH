@@ -213,7 +213,7 @@ label {
   color: #fff;
 }
 
-#gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div .label {
+#gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div input label {
   max-width: 100%;
   padding: 0.5rem 1rem;
   text-align: center;
