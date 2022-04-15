@@ -230,4 +230,17 @@ label {
   padding: .5rem;
   text-align: center;
 }
+
+#gform_2 .gform_page_footer .gform_next_button {
+  background-color: #fff;
+  border: 3px solid var(--wp--preset--color--primary);
+  padding: .5rem 1rem;
+  color: var(--wp--preset--color--primary);
+  font-weight: 700;
+}
+
+#gform_2 .gform_page_footer .gform_next_button:hover, #gform_2 .gform_page_footer .gform_next_button:focus {
+  background-color: var(--wp--preset--color--primary);
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
