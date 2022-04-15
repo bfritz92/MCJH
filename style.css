@@ -199,6 +199,9 @@ label {
 }
 
 #gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border: 2px solid var(--wp--preset--color--primary);
   margin: 0.5rem;
 }
@@ -219,5 +222,10 @@ label {
   text-align: center;
   margin: auto;
   width: 100%;
+  margin-bottom: 0;
+  max-width: calc(100% - 32px);
+  vertical-align: middle;
+  max-width: 100%;
+  padding: .5rem;
 }
 /*# sourceMappingURL=style.css.map */

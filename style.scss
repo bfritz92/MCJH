@@ -212,7 +212,7 @@ label {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       div {
-        
+        display:flex;
         border: 2px solid var(--wp--preset--color--primary);
         margin: 0.5rem;
         input{
@@ -229,6 +229,11 @@ label {
           text-align: center;
           margin: auto;
           width: 100%;
+          margin-bottom: 0;
+          max-width: calc(100% - 32px);
+          vertical-align: middle;
+          max-width: 100%;
+          padding: .5rem;
         }
       }}
     }
