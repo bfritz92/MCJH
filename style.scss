@@ -218,7 +218,7 @@ label {
         margin: 0.5rem;
         input{
           display:none;
-          &[type=radio]:checked+label{
+          &[type=radio]:checked+label, &:hover{
             font-weight:700;
             background-color:var(--wp--preset--color--primary);
             color:#fff;
