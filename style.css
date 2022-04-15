@@ -204,6 +204,10 @@ label {
   margin: 0.5rem;
 }
 
+#gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div input[type=radio]:checked + label {
+  font-weight: 700;
+}
+
 #gform_2 .gform_body.gform-body .gform_page .gform_page_fields .gfield.gfield_price .ginput_container.ginput_container_radio .gfield_radio div .label {
   width: 100%;
   height: 100%;
